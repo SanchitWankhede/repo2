@@ -1,5 +1,7 @@
 package com.cdac;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.Date;
 
 public class HelloWorld {
@@ -8,5 +10,8 @@ public class HelloWorld {
 		System.out.println("Hello World");
 		Date d=new Date();
 		System.out.println(d);
+		
+		LocalTime now=LocalTime.now();
+		System.out.println(now);
 	}
 }
